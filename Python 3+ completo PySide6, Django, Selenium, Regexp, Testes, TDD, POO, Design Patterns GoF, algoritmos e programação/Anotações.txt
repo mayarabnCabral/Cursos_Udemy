@@ -1,0 +1,7 @@
+Get-ExecutionPolicy -> digite no Windows PowerShell para verificar a politica de execução permitita 
+                     -> Greralmente vem como Restricted
+
+Set-ExecutionPolice AllSigned - Force -> Liberar tudo no computador
+                                       -> Pode gerar problemas com virus caso não saiba o que está executando no computar, mas permite gerar maquinas digitais 
+
+
