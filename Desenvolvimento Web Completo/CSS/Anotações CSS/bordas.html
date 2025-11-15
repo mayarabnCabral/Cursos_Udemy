@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bordas</title>
+	<style type="text/css">
+		
+		#conteudo{
+					/*É aplicada no sentido horário, ou seja, cima, direita, baixo, esquerda*/		
+			border-color: red green yellow blue;
+			border-width: 15px 10px 8px 3px;
+			border-style: solid  dotted;
+			/*Quando são definimos apenas dois valores o primeiro vai ser aplicado na parte superior e inferior e o segundo nas laterais (direta e esquerda)*/
+		}
+
+	</style>
+</head>
+<body>
+
+	<div id="conteudo">
+		Bordas<br>
+		Bordas<br>
+		Bordas<br>
+	</div>
+</body>
+</html>
+
+<!--
+
+						/*espessura da borda*/
+			border: 3px dotted red;/*cor da borda*/
+						 /*tipo da borda*/
+
+	Podemos os seguintes tipos de borda:
+	dotted ==> Define uma borda pontilhada
+	dashed ==> Define uma borda tracejada
+	solid ==> Define uma borda sólida
+	double ==> Define uma borda dupla
+	groove ==> Define uma borda ranhurada 3D. O efeito depende do valor da cor da borda
+	ridge ==> Define uma borda ondulada 3D. O efeito depende do valor da cor da borda
+	inset ==> Define uma borda de inserção 3D. O efeito depende do valor da cor da borda
+	outset ==> Define uma borda inicial 3D. O efeito depende do valor da cor da borda
+	none ==> Não define borda, ou seja, "tira" a borda
+	hidden ==> Define uma borda oculta
+-->

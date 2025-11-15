@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<h2>Login</h2>
+	<form>
+		Login:<br>	   <!--Define o tipo do componente-->
+		<input type="text" name="login,"><br>
+							 <!--Define uma forma para "recuperar" os dados que o usuário digitar utilizando uma linguagem de programação-->
+
+		Senha:<br>
+		<input type="password" name="senha"><br>
+						<!--"Esconde" os caracteries que seram digitados-->
+
+								<!--Define o texto do botão-->
+		<input type="button" value="logar">
+						<!--Indica que é um botão-->
+
+		<!--No atributo type podemos definir como submit, que em inglês significa enviar, então envia os dados digitados nesse formulário-->
+	</form>
+
+	<form>
+		<h2>Cadastre-se</h2>
+
+		Login:<br>	   
+		<input type="text" name="login,"><br>
+
+		Sexo:<br>						  
+		<input type="radio" name="sexo" value="M">Masculino<br>
+											<!--Permite que saibamos o valor que foi escolido pelo usuário via linguagem de programação-->
+		<input type="radio" name="sexo" value="F">Feminino<br>
+							  <!--Quando colocamos os atributos name iguais, o "sistema" entende que o só podemos marcar um dos radio -->
+
+		<h2>Interresses</h2>
+		<input type="checkbox" name="interresses">Futebol<br>
+		<input type="checkbox" name="interresses">Cursos<br>
+		<input type="checkbox" name="interresses">Tecnologia<br>
+						<!--Permite que o usuário escolha uma, nenhuma ou mais de uma opção, mesmo com o mesmo name -->
+
+		<h2>Estado</h2>
+		<select name="estado">
+			<option value="sp">SP</option>
+			<option value="rj">RJ</option>
+			<option value="mg">MG</option>
+			<option value="rs">RS</option>
+		</select>
+			<!--Permite que o usuário escolha uma opção entre uma lista de itens, mais indicado quando houver uma listagem muito grande-->
+
+		<h2>Observações:</h2><br>
+		<textarea></textarea><br>
+			<!--Do inglês área de texto, permite que o usuário digite textos maiores, podemos também mudar o tamanho da área e quantos caracteres ela aceita-->
+
+		<input type="submit" value="cadastrar">
+	</form>
+</body>
+</html>

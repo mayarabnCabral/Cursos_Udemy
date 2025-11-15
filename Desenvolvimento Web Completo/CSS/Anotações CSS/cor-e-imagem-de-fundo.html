@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Cor e imagem de fundo</title>
+	<style type="text/css">
+		body{
+				/*Adiciona uma imagem com fundo*/
+			background-image: url('imagens/amazon.png');
+
+				/*Controla a repetição do funto*/
+			background-repeat: no-repeat;
+								/*	Os valores podem ser:
+									repeat -> o fundo se repete completando a página (é o valor padrão)
+									repeat-x -> o fundo se repete no eixo x(horizontal) completando a página
+									repeat-y -> o fundo se repete no eixo y(vertical) completando a página
+									no-repeat -> a imagem não se repete
+									OBS.: a imagem só ira se repetir se ela não tiver tamanho suficiente para preencher a página
+								*/
+
+				/*Como esse fundo se comportará?*/
+			background-attachment: fixed;
+									/*	Podemos usar:
+										fixed -> a imagem ficará fixa no plano de fundo, ou seja, se a página tiver scroll o fundo permanecerá atrás do texto não importa o quanto você role
+										scroll -> a imagem utiliza o scroll, ou seja, ela se movimentará junto com o conteúdo
+									*/
+					/*Define uma posição para imagem, nesse caso, dentro do body */
+			background-position: left center;
+									/*	Posso colocar dois valores sendo que o primeiro valor alinha na horizontal e o segundo na vertical
+									center -> alinha no centro
+									left -> alinha á esquerda
+									right -> alinha á direita
+									top -> alinha no top
+									bottom -> alinha na parte inferior
+									OBS.: como primeiro valor -> left, center, right
+									como segundo valor -> top, center, bottom
+
+									*/		
+
+
+		}
+
+		.fundo{
+				/*Agrupa as formatações anteriores em uma "linha", a ordem seguida é a mesma que a anterior*/
+			background: grey url('imagens/amazon.png') no-repeat scroll top;
+		}
+	</style>
+</head>
+<body>
+	<h1 class="fundo">Conteúdo de titulo <br> <br> <br></h1>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+
+
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+
+</body>
+</html>

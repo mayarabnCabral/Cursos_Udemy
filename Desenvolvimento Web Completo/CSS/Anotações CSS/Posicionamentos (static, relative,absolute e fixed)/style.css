@@ -1,0 +1,48 @@
+body{
+	background: #007fc7;
+}
+
+h1{
+	
+}
+
+p{
+	width: 300px;
+}
+
+.relative{
+	border: 5px solid red;
+	position: relative;
+				/* Tem seu alinhamento basseado na posição inicial do elemento */
+				/* Quando usamos a position relative precisamos utilizar propriedades de deslocamento para movimentar nosso elemento*/
+	  /* Os valores das propriedades de deslocamento podem ser top, right, bottom e left */			
+	top: 20px;
+	left: 80px;
+}
+.absolute{
+	border: 5px solid blue;
+	position: absolute;
+				  /* Permite que você defina uma caixa que é removida do fluxo do documento e você consegue alinhar essa caixa baseado no seu contêiner que tenha uma posição diferente de static*/
+	top: 20px;
+	right: 80px;
+
+}
+.fixed{
+	border: 5px solid green;
+	position: fixed;
+				/* Deixa o elemento fixo em relação a janela do seu navegador */
+				/* Também chamado de viewport */
+	top: 850px;
+	left: 600px;
+
+
+}
+
+#container{
+	background: #FFF;
+	width: 800px;
+	margin: 10px auto;
+				   /*Ajuda a centralizar o elemento*/
+	padding: 10px;
+/*	position: relative;*/
+}

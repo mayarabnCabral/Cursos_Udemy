@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tamanho de texto</title>
+	<style type="text/css">
+		
+	/*	px --> tamanho fixo
+		% --> tamanho relativo(do padrão que browser usa como referência)
+		em --> tamanho relativo ao container pai(mais utilizado para valores relativos)
+	*/
+
+		body{
+			font-size: 60px;
+		}
+
+		.porcento{
+			font-size: 200%;
+		}
+
+		.px{
+			font-size: 40px;
+		}
+
+		.em{
+			font-size: 1em; /*equivale ao valor do conteiner pai, ou seja, se eu colocar 2em equivale a dobro do container pai, ou, 2 x o valor do conteiner pai, e podemos usar medidas não inteiras(1.5em, por exemplo)*/
+		}
+
+	</style>
+</head>
+<body>
+
+	<p class="porcento">Conteúdo</p>
+	<p class="px">Conteúdo</p>
+	<p class="em">Conteúdo</p>
+	
+
+</body>
+</html>

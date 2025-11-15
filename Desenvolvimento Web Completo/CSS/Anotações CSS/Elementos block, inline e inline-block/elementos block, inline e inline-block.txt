@@ -1,0 +1,20 @@
+-Elemento do tipo block
+	- Tem uma largura que ocupa todo o espaçamento da tela
+	- Um elemento fica abaixo do outro
+	- Podemos utilizar o display: block
+	- Exemplo: <h1>, <p>, <table>
+
+-Elemento do tipo inline
+	- Tem a largura da caixa do elemento de acordo com o seu conteúdo
+	- Um elemento fica á frente do outro
+	- Podemos utilizar o display: inline
+	- Exemplo: <a>, <span>, <img>
+
+-Elemento do tipo inline-block
+	- Tem a largura definida baseada no seu conteúdo
+	- Um elemento fica abaixo do outro
+	- Podemos utilizar o  display: inline-block
+
+-display
+	- Altera o comportamento do elemento
+	- Seus valores podem ser block, inline, inline-blocks

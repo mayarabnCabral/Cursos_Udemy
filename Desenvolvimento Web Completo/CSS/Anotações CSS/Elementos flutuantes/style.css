@@ -1,0 +1,38 @@
+.conteudo{
+	background: blue;
+	border: 1px solid gray;
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+	float: left;
+}
+
+.conteudo1{
+	background: red;
+	border: 1px solid gray;
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+	  /*Cria um fluxo diferenciado que permite que os conteúdos flutuem, quando a usamos em uma div ela vai sobrepor o conteúdo dela, exemplo, se colocarmos um backgroand verde e utilizarmos ela, ele sumirá*/
+	float: left;
+			/*Seus valores podem ser right (direita), left (esquerda) ou none (nenhum)*/
+}
+
+.conteudo-zero{
+	background: red;
+	border: 1px solid gray;
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+}
+
+.clear{
+	  /*"Limpa" o fluxo flutuante*/
+	clear: left;
+			/*Seus valores podem ser right (direita), left (esquerda), both (ambos) e none (nenhum)*/
+}
+
+#principal{
+	border: 5px solid red;
+	background: green;
+}

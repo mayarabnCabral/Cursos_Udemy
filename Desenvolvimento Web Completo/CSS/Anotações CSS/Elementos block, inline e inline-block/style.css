@@ -1,0 +1,16 @@
+.borda{
+	border: 1px solid red;
+}
+
+#block{
+	display: block;
+}
+
+#inline{
+	display: inline;
+	padding: 20px 20px 0px 20px ;
+}
+
+#inline-block{
+	display: inline-block;
+}
