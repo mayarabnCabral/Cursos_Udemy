@@ -1,0 +1,38 @@
+Estrutura de dados -> forma organizada de armazenar dados na memória
+    -> Tipos
+        -> Simples -> Organização linear e direta, fáceis de entender e utilizar
+                   -> Exemplos:
+                    -> Array/ vetores, Lista
+        
+        -> Hierárquicas -> Organizam os dados em niveis 
+                        -> em que cada elemento pode ter um ou mais elementos “filhos” conectados a ele
+                        -> Exemplos:
+                            -> Árvores, Heaps
+                    
+        -> Não lineares -> Organizam os dados sem uma sequência única ou linear
+                        -> Os elementos podem se conectar de varias formas 
+                        -> Normalmente usadas para representar relações complexas entre elementos
+                        -> Exemplos:
+                            -> Grafos, algumas representações de redes ou conjuntos complexos
+        
+        -> Filas -> Segue a regra FIFO (First In, First Out – primeiro a entrar é o primeiro a sair)
+                 -> Operações principais:
+                    -> Enqueue: adicionar elemento no final da fila
+                    -> Dequeue: remover elemento do início da fila
+                 -> Analogia: uma fila de banco ou supermercado
+        
+        -> Pilhas -> Segue a regra LIFO (Last In, First Out – último a entrar é o primeiro a sair)
+                  -> Operações principais:
+                    -> Push: adicionar elemento no topo
+                    -> Pop: remover elemento do topo
+                 -> Analogia: pilha de livros ou pratos.
+
+
+.NET -> Plataforma de desenvolvimento para criar diversos tipos de aplicações: desktop, web, mobile, jogos,APIs, etc
+     -> Permite usar várias linguagens, como C#, F#, VB.NET
+     -> Componentes 
+            -> BCL Base Class Libary (Biblioteca de classes base) 
+                -> Biblioteca de classes base, fornece funcionalidades prontas: manipulação de strings, arquivos, coleções, datas, etc
+            -> CLR Common Laguage Runtime (Maquina virtual) 
+                -> Máquina virtual que executa o código .NET
+                -> Garante segurança, gerenciamento de memória (garbage collector) e compatibilidade entre linguagens .NET
