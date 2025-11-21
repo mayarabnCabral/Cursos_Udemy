@@ -3,6 +3,7 @@ using System.Collections.Generic;
 
 using CursoCSharp.Fundamentos;
 using CursoCSharp.Funddamentos;
+using CursoCSharpe.Fundamentos;
 
 namespace CursoCSharp {
     class Program {
@@ -18,7 +19,10 @@ namespace CursoCSharp {
                 {"Formatando Números - Fundamentos", FormatandoNumeros.Executar},
                 {"Conversões - Fundamentos", Conversoes.Executar},
                 {"Operadoes Aritméticos - Fundamentos", OperadoresAritimeticos.Executar},
-                {"Operadores Relacionais - Fundamentos", OperadoresRelacionais.Executar}
+                {"Operadores Relacionais - Fundamentos", OperadoresRelacionais.Executar},
+                {"Operadores Lógicos - Fundamentos", OperadoresLogicos.Executar},
+                {"Operadores de Atribuição - Fundamentos", OperadoresDeAtribuicao.Executar},
+                {"Operador Ternário - Funtamentos", OperadorTernario.Executar},
             });
 
             central.SelecionarEExecutar();
